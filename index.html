@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./src/common/fonts/style.css">
+    <title>eleme</title>
+    <script>
+      var deviceWidth = document.documentElement.clientWidth;
+      if(deviceWidth > 640) deviceWidth = 640;
+      document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
