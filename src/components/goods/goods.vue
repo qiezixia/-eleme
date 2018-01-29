@@ -142,7 +142,7 @@ export default {
         probeType: 3,
       });
       this.foodScroll.on('scroll', (pos) => {
-        this.scrolly = Math.abs(Math.round(pos.y));
+        this.scrolly = Math.abs(Math.round(pos.y)) + 5;
       });
     }
   }
@@ -158,6 +158,7 @@ export default {
     top:3.49rem;
     bottom:0;
     .foods-wrapper{
+      margin-bottom: 1rem;
       flex:1;
       ul{
         margin:0;
